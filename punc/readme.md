@@ -19,22 +19,22 @@ Target platform: FPGA
 **Core Components**
 
 Program Counter (PC)
-Manages sequential instruction fetch and control flow changes.
+- Manages sequential instruction fetch and control flow changes.
 
 Instruction Memory
-Stores executable programs loaded onto the FPGA.
+- Stores executable programs loaded onto the FPGA.
 
 Register File
-General-purpose registers used for arithmetic, logic, and control operations.
+- General-purpose registers used for arithmetic, logic, and control operations.
 
 ALU
-Supports arithmetic and logical operations defined by the ISA.
+- Supports arithmetic and logical operations defined by the ISA.
 
 Control Unit
-Decodes instructions and generates control signals for datapath coordination.
+- Decodes instructions and generates control signals for datapath coordination.
 
 Data Memory
-Supports load/store operations.
+- Supports load/store operations.
 
 **Instruction Set Architecture (ISA)**
 
@@ -42,13 +42,13 @@ The processor implements a custom 16-bit ISA designed to balance simplicity and 
 
 Instruction categories include:
 
-Arithmetic operations (e.g. add, subtract)
+- Arithmetic operations (e.g. add, subtract)
 
-Logical operations (e.g. and, or)
+- Logical operations (e.g. and, or)
 
-Memory operations (load/store)
+- Memory operations (load/store)
 
-Control flow (branch, jump)
+- Control flow (branch, jump)
 
 Instruction formats are fixed-width and optimized for straightforward decode logic.
 
@@ -76,5 +76,6 @@ The FPGA top-level module integrates end-to-end tests execute small programs to 
 - Performance analysis (CPI, critical path)
 
 **Motivation**
+
 
 This project was built to deepen understanding of processor microarchitecture, RTL design, and hardware execution models, and to serve as a foundation for more advanced chip design work.
