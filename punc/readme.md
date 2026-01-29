@@ -56,11 +56,11 @@ Instruction formats are fixed-width and optimized for straightforward decode log
 
 The processor is synthesized and deployed on an FPGA, enabling:
 
-Hardware validation beyond simulation
+- Hardware validation beyond simulation
 
-Debugging via  on-board signals and referencing waveforms
+- Debugging via  on-board signals and referencing waveforms
 
-The FPGA top-level module integrates end-to-end tests execute small programs to verify correct instruction sequencing and state updates
+- The FPGA top-level module integrates end-to-end tests execute small programs to verify correct instruction sequencing and state updates
 
 
 **Future Work**
@@ -79,3 +79,4 @@ The FPGA top-level module integrates end-to-end tests execute small programs to 
 
 
 This project was built to deepen understanding of processor microarchitecture, RTL design, and hardware execution models, and to serve as a foundation for more advanced chip design work.
+
