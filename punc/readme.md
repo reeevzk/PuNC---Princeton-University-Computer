@@ -62,6 +62,21 @@ The processor is synthesized and deployed on an FPGA, enabling:
 
 - The FPGA top-level module integrates end-to-end tests execute small programs to verify correct instruction sequencing and state updates
 
+**Verification**
+
+The processor was validated using a reusable self-checking Verilog testbench.
+
+Tests cover:
+
+- arithmetic instructions
+- logical instructions
+- load/store operations
+- branches and jumps
+- register file updates
+- memory correctness
+- complete execution of multi-instruction programs (e.g. Euclidean GCD)
+
+The testbench automatically reports pass/fail conditions by checking architectural state after execution.
 
 **Future Work**
 
