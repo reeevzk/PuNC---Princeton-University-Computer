@@ -1,4 +1,4 @@
-16-bit Stored-Program Processor (SystemVerilog + ARM Artix-7 FPGA)
+##16-bit Stored-Program Processor (SystemVerilog + ARM Artix-7 FPGA)
 
 **Overview**
 
