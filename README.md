@@ -64,19 +64,17 @@ The processor is synthesized and deployed on an FPGA, enabling:
 
 **Verification**
 
-The processor was validated using a reusable self-checking Verilog testbench.
+The processor is validated using a reusable self-checking Verilog testbench that automatically verifies architectural state after program execution.
 
-Tests cover:
+Current tests include:
 
-- arithmetic instructions
-- logical instructions
-- load/store operations
-- branches and jumps
-- register file updates
-- memory correctness
-- complete execution of multi-instruction programs (e.g. Euclidean GCD)
+- Arithmetic and logical instructions
+- Memory load/store instructions
+- Branches and jumps
+- Register file updates
+- Multi-instruction programs (including Euclidean GCD)
 
-The testbench automatically reports pass/fail conditions by checking architectural state after execution.
+Future verification improvements include additional directed corner-case testing, including read-after-write sequences, back-to-back memory operations, overflow behavior, and control-flow edge cases.
 
 **Future Work**
 
